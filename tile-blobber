@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var split = require('split');
+var Blobber = require('./index.js');
+var blobber = Blobber({});
+
+process.stdin
+    .pipe(split())
+    .on('data', function(line) {
+        if (!line) return;
+        blobber.add(line);
+    })
+    .on('end', function() {
+        console.log(JSON.stringify(blobber, null, 2));
+    });
+
