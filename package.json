@@ -1,6 +1,6 @@
 {
     "name": "tile-blobber",
-    "description": "Transform a list of tile coordinates in covering polygon",
+    "description": "Transform a list of tile coordinates into covering polygons",
     "version": "0.0.1",
     "author": "Mapbox (https://www.mapbox.com)",
     "license": "ISC",
