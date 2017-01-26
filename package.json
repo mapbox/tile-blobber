@@ -1,21 +1,21 @@
 {
-    "name": "tile-blobber",
-    "description": "Transform a list of tile coordinates into covering polygons",
-    "version": "0.0.1",
-    "author": "Mapbox (https://www.mapbox.com)",
-    "license": "ISC",
-    "dependencies": {
-        "split": "~1.0.0",
-        "tilebelt": "~0.7.1",
-        "turf-union": "~1.0.2"
-    },
-    "devDependencies": {
-        "tape": "~4.2.0"
-    },
-    "bin": {
-        "tile-blobber": "./tile-blobber"
-    },
-    "scripts": {
-        "test": "tape test/*.test.js"
-    }
+  "name": "@mapbox/tile-blobber",
+  "description": "Transform a list of tile coordinates into covering polygons",
+  "version": "0.0.1",
+  "author": "Mapbox (https://www.mapbox.com)",
+  "license": "ISC",
+  "dependencies": {
+    "split": "~1.0.0",
+    "tilebelt": "~0.7.1",
+    "turf-union": "~1.0.2"
+  },
+  "devDependencies": {
+    "tape": "~4.2.0"
+  },
+  "bin": {
+    "tile-blobber": "./tile-blobber"
+  },
+  "scripts": {
+    "test": "tape test/*.test.js"
+  }
 }
